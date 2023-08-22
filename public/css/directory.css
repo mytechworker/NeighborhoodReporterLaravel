@@ -1,0 +1,284 @@
+.main-container {
+    margin-top: 15px;
+}
+.directory_wrapper h6, .directory_wrapper .h6 {
+    font-size: 12px;
+}
+.region-content {
+    margin-right: 20px;
+    color: #4D4D4D;
+}
+#header-block {
+    margin: 20px 0 5px;
+}
+.standard-header h1, #header-block.category-page-header h1, #header-block.localstream-page-header h1, #header-block.real_estate-page-header h1, #header-block.town-info-page-header h1, #header-block.standard-header h1 {
+    font-family: "proxima_nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+}
+a.near-black-link {
+    color: #111;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+}
+.image-crop {
+    max-height: 160px;
+    object-fit: cover;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.cm-row {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 2px 4px 1px rgb(221 221 221 / 50%);
+    box-shadow: 0 2px 4px 1px rgb(221 221 221 / 50%);
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+    font-family: "proxima_nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0 0 15px 0;
+    padding: 15px;
+    position: relative;
+}
+.cm-row .cm-title {
+    font-family: "Merriweather",Georgia,"Times New Roman",Times,serif;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 1.25;
+    margin-top: 3px;
+    word-wrap: break-word;
+}
+.cm-row.listing .cm-title {
+    font-family: "proxima_nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.cm-row .cm-title a {
+    display: block;
+}
+.shadow-cm-img {
+    box-shadow: 0 2px 4px #d8d8d8;
+}
+.cm-summary-addl {
+    font-size: 14px;
+}
+
+.directory_wrapper h1 {
+    color: #111;
+    font-weight: 700;
+}
+.directory_wrapper .modal {
+    z-index: 5000050; 
+}
+.directory_wrapper .modal-backdrop {
+    z-index: 5000040;
+}
+.directory_wrapper .pager {
+    padding-left: 0;
+    margin: 20px 0;
+    list-style: none;
+    text-align: right;
+}
+.directory_wrapper .pager li {
+    display: inline;
+}
+.directory_wrapper .pager li>a, .directory_wrapper .pager li>span {
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #009e13;
+    color: #009e13;
+    display: inline-block;
+    padding: 5px 14px;
+}
+.directory_wrapper .pager li>a:hover, .directory_wrapper .pager li>a:focus {
+    background-color: #009e13;
+    border-color: #009e13;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.region-sidebar-second h5, .region-sidebar-second .h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.region-sidebar-second {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.region-sidebar-second h4.block-title {
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+.region-sidebar-second a.gray-link {
+    color: #555;
+    cursor: pointer;
+    text-decoration: none;
+}
+.region-sidebar-second .m-20 .m-20-inner {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 2px 4px 1px rgb(221 221 221 / 50%);
+    box-shadow: 0 2px 4px 1px rgb(221 221 221 / 50%);
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+    padding: 20px;
+}
+.region-sidebar-second .border-top-event {
+    border-top: 6px solid #D1145A !important;
+}
+.region-sidebar-second .ticker-inner-wrapper {
+    overflow: hidden;
+}
+.region-sidebar-second .mini-slot {
+    min-height: 80px;
+    border: 0 none;
+    border-bottom: 1px solid #eee;
+    margin: 0 0 15px 0;
+    padding: 0 0 10px 0;
+    display: flex;
+}
+.leftside {
+    float: left !important;
+}
+.mini-slot .leftside a {
+    max-height: 75px;
+    overflow: hidden;
+    display: block;
+}
+.region-sidebar-second .text-event {
+    color: #D1145A;
+}
+.region-sidebar-second .l-strong, .region-sidebar-second .l-bold {
+    font-weight: 700 !important;
+}
+.region-sidebar-second .rightside {
+    width: 80%;
+}
+.region-sidebar-second .btn-cta {
+    color: #fff;
+    background-color: #06C42A;
+    border-color: #06C42A;
+    font-weight: 700 !important;
+    font-size: 14px;
+}
+.region-sidebar-second .btn-cta:hover {
+    color: #fff;
+    background-color: #04931f;
+    border-color: #04891d;
+}
+.region-sidebar-second .mini-cal-tag-wrapper {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+.region-sidebar-second .mini-cal-tag {
+    border: 1px solid #000;
+    border-top: 8px solid #ff5f5f;
+    font-size: 9px;
+    line-height: 1.3;
+    padding: 0 5px;
+}
+.region-sidebar-second a.cta-green-link {
+    color: #009e13;
+    cursor: pointer;
+    text-decoration: none;
+}
+.region-sidebar-second .see-more-events-link {
+    margin-top: -10px;
+    vertical-align: middle;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .region-content {
+        margin-right: 0;
+    }
+    .cm-row .cm-title {
+        font-size: 18px;
+        line-height: 1.3;
+        padding-right: 0;
+    }
+}
+
+/* @media (max-width: 576px) {
+    .region-sidebar-second .col-xs-4 {
+        width: 33.33333% !important;
+    }
+    .region-sidebar-second .col-xs-8 {
+        width: 66.66667% !important;
+    }
+} */
+
+
+@media (min-width: 360px) {
+    .standard-header h1, #header-block.category-page-header h1, #header-block.localstream-page-header h1, #header-block.real_estate-page-header h1, #header-block.town-info-page-header h1, #header-block.standard-header h1 {
+        font-size: 16px;
+    }
+    .image-crop {
+        max-height: 190px;
+    }
+}
+
+@media (min-width: 480px) {
+    .standard-header h1, #header-block.category-page-header h1, #header-block.localstream-page-header h1, #header-block.real_estate-page-header h1, #header-block.town-info-page-header h1, #header-block.standard-header h1 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) {
+    .directory_wrapper .modal-dialog {
+        max-width: 600px;
+        margin: 100px auto;
+    }
+    .cm-image-crop {
+        width: 168px !important;
+        height: 126px !important;
+    }
+    .image-crop {
+        max-height: 210px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cm-image-crop {
+        width: 162px !important;
+        height: 121px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #header-block {
+        margin: 20px 0;
+    }
+    .cm-image-crop {
+        width: 133px !important;
+        height: 99px !important;
+    }
+    .region-sidebar-second {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1140px){
+    .cm-image-crop {
+        width: 156px !important;
+        height: 117px !important;
+    }
+}

@@ -1,0 +1,139 @@
+.page__content {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px auto 22px;
+}
+.page__main, .page__side {
+    width: 100%;
+}
+[data-rbd-droppable-context-id="0"] {
+    overflow-anchor: none;
+}
+.icon--space-right {
+    margin-right: 8px;
+}
+.text--primary {
+    color: #009e13;
+}
+.text--muted {
+    color: #848484;
+}
+[data-rbd-drag-handle-context-id="0"] {
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    touch-action: manipulation;
+}
+[data-rbd-drag-handle-context-id="0"] {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.paragraph {
+    color: #000;
+    font-size: "base";
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.text-field--is-outlined {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn--cta:hover {
+    border-color: #009e13;
+    -webkit-box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 18%);
+    box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 18%);
+}
+.btn--cta, .btn--cta:hover {
+    background: #009e13;
+    color: #fff;
+}
+.btn--icon:hover {
+    padding: 8px!important;
+    background: #e9e9e9;
+}
+.btn--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #009e13;
+    font-weight: 400;
+    vertical-align: baseline;
+    border-radius: 50%;
+    padding: 8px!important;
+}
+.btn:focus {
+    outline: 0;
+}
+
+.my-community .btn--icon-error, .btn--icon-error:hover {
+    color: #e02020;
+}
+.my-community .btn--icon-muted, .btn--icon-muted:hover {
+    color: #848484;
+}
+.my-community .st_InteractionGuard, .my-community .st_InteractionGuard__content {
+    position: relative;
+}
+.my-community .st_ManageCommunitiesForm {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.my-community .form__inner {
+    width: 100%;
+}
+.my-community .st_ManageCommunitiesForm__title {
+    font-size: 1.125rem;
+}
+.my-community .form__item {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.my-community .st_ReorderableList {
+    padding: 0;
+    list-style-type: none;
+}
+.my-community .st_ManageCommunitiesForm__item {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .page__content {
+        max-width: 730px;
+    }
+
+    .my-community .st_ManageCommunitiesForm__title {
+        font-size: 1.375rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .page__content {
+        max-width: 950px;
+        flex-flow: nowrap;
+    }
+    .page__main {
+        padding-right: 25px;
+        width: 66.66667%;
+    }
+    .page__main--center {
+        margin: 0 auto;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .page__content {
+        max-width: 1090px;
+    }
+}
