@@ -1,0 +1,114 @@
+.st_About {
+    color: #404040;
+    font-size: .875rem;
+}
+
+.about-us .st_About__Header {
+    margin: 12px 0;
+    font-size: 32px;
+    color: #111;
+    font-family: Merriweather,Georgia,Times New Roman,Times,serif;
+    font-weight: 700;
+}
+.about-us .st_About__AboutInfo {
+    display: flex;
+    margin: 0 0 3em;
+}
+.about-us .st_About__AboutInfoText {
+    width: 35%;
+}
+.about-us h3 {
+    color: #111;
+    font-size: 16px;
+}
+.about-us p {
+    margin: 12px 0;
+    line-height: normal;
+}
+.about-us li {
+    margin: 12px 0 12px -22px;
+}
+.about-us .st_About__AboutInfoImage {
+    width: 40%;
+    height: 30px;
+    margin: 0 0 5em 5em;
+}
+.about-us .st_About__HeaderImage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.about-us hr {
+    color: #ccc;
+}
+.about-us .st_About__BioImage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.about-us .st_About__Bio {
+    width: 86%;
+    margin: 0 0 0 2em;
+}
+.about-us .who_we_are {
+    display:flex;margin:0 0 3em 0;
+}
+.about-us .bio_img_wrapper {
+    width:14%;
+}
+.about-us h4 {
+    color: #686868;
+    padding-bottom: 6px;
+    font-size: 14px;
+}
+.about-us .press_release:first-child {
+    margin:-14px -5px 0 -5px;
+}
+.about-us .press_release {
+    margin:8px -5px 0 -5px;
+}
+.about-us .st_About__ReleaseHeader {
+    margin: 12px 0;
+    font-size: 1.125rem;
+    color: #111;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .about-us.st_About {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-us .st_About__AboutInfo {
+        flex-flow: column-reverse;
+    }
+    .about-us .st_About__AboutInfoText {
+        width: 100%;
+    }
+    .about-us .st_About__AboutInfoImage {
+        width: 100%;
+        height: auto;
+        margin: 0 0 12px;
+    }
+    .about-us .st_About__Bio {
+        margin: 0 0 0 7em;
+    }
+    .about-us.st_About p.st_About__BioDetails {
+        margin: 10em 0 0 -9rem;
+    }
+    .about-us .st_About__BioImage {
+        max-width: 125px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-us .st_About__BioImage {
+        max-width: 125px;
+    }
+}
